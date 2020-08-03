@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = 'NzM5ODQ1NzI0NDM4NzkwMjA0.XygZBg.h-o_fFGQhmlS7JVxGndzff6Ui0A';
+// const token =  //isi sendiri
 
 bot.on('ready', () => {
   console.log('This bot is onlen');
