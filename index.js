@@ -2,6 +2,7 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 // const token =  //isi sendiri di discord devnya / discordapp.com/developer
+const token = "NzM5ODQ1NzI0NDM4NzkwMjA0.XygZBg.0EY6xMM1JL9kSdarx07kat2tvvw";
 
 const PREFIX = "~";
 
@@ -12,7 +13,9 @@ bot.on("ready", () => {
 });
 
 bot.on("message", (message) => {
-  let args = message.content.substr(PREFIX.length).split(" ");
+  if (!message.content.startsWith(PREFIX)) return;
+  // let args = message.content.substr(PREFIX.length).split(" ");
+  const args = message.content.slice(PREFIX.length).split(" ");
 
   switch (args[0]) {
     case "ping":
@@ -53,7 +56,16 @@ bot.on("message", (message) => {
         .setThumbnail(message.author.displayAvatarURL())
         .setFooter("Feel Free To Add Me!");
       message.channel.send(embed);
-
+      break;
+    case "iloveyou":
+      message.channel.send("Matane Cuk Jijik Ah ..");
+      break;
+    case "i":
+      args[1] === "love"
+        ? args[2] === "you"
+          ? message.channel.send("Matane Cuk Jijik Ah `(*>﹏<*)′ ")
+          : message.channel.send("Tolong Ngomong Di Perjelas ^_^ ..")
+        : message.channel.send("Hmm ?? ..");
       break;
   }
 });
