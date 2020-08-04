@@ -2,11 +2,10 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 
 // const token =  //isi sendiri di discord devnya / discordapp.com/developer
-const token = "NzM5ODQ1NzI0NDM4NzkwMjA0.XygZBg.0EY6xMM1JL9kSdarx07kat2tvvw";
 
 const PREFIX = "~";
 
-let version = "v1.0.3";
+let version = "v1.0.4";
 
 bot.on("ready", () => {
   console.log("Bot ini sudah diaktifkan, Periksa Discord Anda");
