@@ -3,7 +3,6 @@ const bot = new Client(); //nulis bot biar kaga ribet make perintah discord.clie
 
 // const token =  //isi sendiri di discord devnya / discordapp.com/developerc
 
-
 //character pemanggil botnya
 const PREFIX = "~";
 

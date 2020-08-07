@@ -54,7 +54,7 @@ node index.js
 | `~send`                | ngirim gambar Jacket Girl DiPP (itu foto link nya ntah saus lupa)|
 | `~sendlocal`           | ngirim gambar Jacket Girl DiPP (itu foto dari local pc nya)|
 | `~rules`               | ngirim file txt sebagai bentuk dokumentasi rules di server tsb |
-| `~rules`               | fitur kick player (bot harus jdi admin biar bisa kick)|
+| `~kick [input player] `| kick [`player`] yg ingin di kick (bot harus jdi admin biar bisa kick)|
 
 
 ## version : `1.0.4`
@@ -75,12 +75,20 @@ node index.js
 | `~website`             | nampilin website yg buat bot ini asli buluk                  |
 | `~info version`        | nampilin versi botnya                                        |
 | `~info socialmedia`    | nampilin social media yg buat bot nya asli ngemis ni \*canda |
-| `~clear number input]` | hapus pesan sebanyak [ `tuliskan angka` ]                    |
+| `~clear [input number]` | hapus pesan sebanyak [ `tuliskan angka` ]                    |
 
 > dan lain sebagainya cari sendiri ..
 
+
 udah itu aja sih .. trima gaji ..
 
-## Koding By ~ **`Chandra`**
+## Koding By ~ [Chandra](fb.me/banana.garuda)
 
 ![Chandra](/img/chandra.png)
+
+Jika Anda Butuh Saya Silahkan Hubungi :
+
+- Discord : Kajikasama#5372
+- WA : 0895382590836
+- FB : [Agus Chandra](fb.me/banana.garuda)
+- IG : [guschan12](instagram.com/guschan12/)
