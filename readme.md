@@ -47,14 +47,20 @@ node index.js
 - nambahkan Fitur Send `Foto` Dri `Link`
 - nambahkan Fitur Send `Text` Maupun File Lainnya
 - nambahkan Fitur `Kick Player`
+- nambah Fitur Bot Bisa Playing, Streaming, Maupun Listening / Watching Discord `RichPresence`
 
+| Command                | Arti Perintahnya                                             |
+| ---------------------- | ------------------------------------------------------------ |
+| `~send`                | ngirim gambar Jacket Girl DiPP (itu foto link nya ntah saus lupa)|
+| `~sendlocal`           | ngirim gambar Jacket Girl DiPP (itu foto dari local pc nya)|
+| `~rules`               | ngirim file txt sebagai bentuk dokumentasi rules di server tsb |
+| `~rules`               | fitur kick player (bot harus jdi admin biar bisa kick)|
 
 
 ## version : `1.0.4`
 
 - nambah fitur `user information`
 - nambah fitur chat bot sederhana (idih nolep)
-- nambah Fitur Bot Bisa Playing, Streaming, Maupun Listening / Watching Discord `RichPresence`
 - beberapa command sudah diperbaiki
 
 > biasakan klo mo manggil bot make tanta tilde `~`
@@ -72,7 +78,6 @@ node index.js
 | `~clear number input]` | hapus pesan sebanyak [ `tuliskan angka` ]                    |
 
 > dan lain sebagainya cari sendiri ..
-
 
 udah itu aja sih .. trima gaji ..
 

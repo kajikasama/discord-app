@@ -2,7 +2,7 @@ const { Client, MessageAttachment, MessageEmbed } = require("discord.js"); //bia
 const bot = new Client(); //nulis bot biar kaga ribet make perintah discord.client lagi
 
 // const token =  //isi sendiri di discord devnya / discordapp.com/developerc
-const token = "NzM5ODQ1NzI0NDM4NzkwMjA0.XygZBg.vbopVJeYgJ2tz5A3tO75KLaGFgI";
+
 
 //character pemanggil botnya
 const PREFIX = "~";
